@@ -1,10 +1,21 @@
-package com.program;
+package com.company;
 
+import java.util.Scanner;
+//This program will get a input from the user and will give the output as whether the input number is positive or negative.
 public class Main {
 
     public static void main(String[] args) {
-        //My first program in Java
-        //This program was done on 11th july, 2021
-        System.out.print("Hello world");
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int num=number.nextInt();
+        if(num>0){
+            System.out.println("The Number is positive");
+        }
+        else if(num<0){
+            System.out.println("The number is negative");
+        }
+        else{
+            System.out.println("The number is zero");
+        }
     }
 }
