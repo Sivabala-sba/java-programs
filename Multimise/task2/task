@@ -1,1 +1,6 @@
 Task 2:
+Project: GreensAddress
+Package: org.add
+Class: GreensTech
+Methods: greensOmr(), greensAdayar(), greensTambaram(), greensVelacherry(), greensAnnaNagar()
+Description: Create an object for GreensTech class and call above methods also follow the all coding standards.
