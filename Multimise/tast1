@@ -1,0 +1,6 @@
+Task 1:
+Project: EmployeeDetails
+Package: org.emp
+Class: Employee
+Methods: empId(), empName(), empDob(), empPhone(), empEmail(), empAddress()
+Description: Create an object for employee class and call above methods also follow the all coding standards.
